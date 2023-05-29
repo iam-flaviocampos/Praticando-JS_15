@@ -1,0 +1,34 @@
+Estou criando uma função chamada "revendedora" que recebe um parâmetro chamado "modelo". A ideia é simular
+uma situação em que um homem vai a uma revenda de carros para comprar um veículo específico.
+
+
+Dentro da função, utilizo uma estrutura de controle chamada switch. Essa estrutura permite que eu verifique
+o valor do parâmetro "modelo" e execute diferentes blocos de código com base nesse valor.
+
+No caso das opções "Sedans", "Motocicletas" e "Caminhonetes", o código irá imprimir no console a mensagem
+"Tem certeza que não prefere este modelo?". Isso significa que se o comprador mencionar algum desses modelos,
+a revendedora irá sugerir que ele considere essas opções.
+
+Se o modelo mencionado for "Hatch", o código irá imprimir no console a mensagem "Compra efetuada com sucesso!".
+Isso significa que se o comprador desejar um carro hatch, a revendedora irá confirmar que a compra foi concluída
+com sucesso.
+
+Por fim, se o modelo mencionado não se encaixar em nenhuma das opções anteriores, o código irá imprimir no
+console a mensagem "Não trabalhamos com este tipo de automóvel aqui!". Isso significa que se o comprador
+mencionar um modelo que não está disponível na revenda, ele será informado de que esse tipo de veículo não é
+vendido ali.
+
+Em seguida, são feitas algumas chamadas da função "revendedora" passando diferentes modelos como argumentos
+para testar o comportamento do código. Por exemplo, ao chamar "revendedora("Sedans")", a mensagem "Tem certeza
+que não prefere este modelo?" será impressa no console. O mesmo acontecerá com as chamadas para "Motocicletas"
+e "Caminhonetes".
+
+Quando chamamos "revendedora("Hatch")", a mensagem "Compra efetuada com sucesso!" será exibida no console,
+indicando que a compra foi bem-sucedida.
+
+Por fim, ao chamar "revendedora("Trator")", a mensagem "Não trabalhamos com este tipo de automóvel aqui!"
+será impressa no console, já que esse modelo não está disponível na revenda.
+
+
+
+
